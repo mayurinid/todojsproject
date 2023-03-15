@@ -1,0 +1,191 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.container{
+    width: 100%;
+    height: 100%;
+   
+}
+.heading{
+    color: white;
+    position: absolute;
+    top:10%;
+    left:10%;
+}
+.task{
+    font-size:3rem ;
+    font-weight: bold;
+}
+.list{
+    font-size: 3rem;
+    }
+    .icon{
+        font-size: 2rem;
+        position: relative;
+        top:10%;
+        left:35rem;
+    }
+    #circle{
+    color:blue ;
+    }
+    .msg{
+        font-size: 2rem;
+        color:green;
+        position: absolute;
+        top:20%;
+        left:10%;  
+    }
+    .additem{
+        font-size: 2rem;
+        position: absolute;
+        top:2%;
+        left:25%;
+    }
+    #inputtext{
+        width: 60%;
+        padding: 0.3rem;
+        position: absolute;
+        top:42%;
+        left:18%;
+    }
+    .poppup{
+        width: 25%;
+height: 30%;
+color: red;
+background-color: white;
+        border-radius: 1rem;
+        position: absolute;
+        top:35%;
+        left:40%;
+        align-items: center;
+    }
+.addbtn{
+    color: white;
+    border: none;
+    background-color: red;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    position: absolute;
+    top:60%;
+    left:30%;
+}
+.closebtn{
+    color: white;
+    border: none;
+    background-color: red;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    position: absolute;
+    top:60%;
+    left:50%;
+}
+#createcard1{
+   
+   
+    display: flex;
+    flex-wrap: wrap;
+
+    
+justify-content:space-evenly;
+
+    /* flex-direction: column; */
+    position: relative;
+z-index: -1;
+    top:100px;
+    left:0; 
+   
+}
+#createcard{
+    width:200px;
+    height: 300px;
+    border-radius: 2rem;
+        background-color: white;
+        margin: 20px;
+}
+h4{
+    color:red;
+    position: relative;
+    top:2%;
+    left:40%;
+}
+div >.fa-plus-circle{
+    color: blue;
+    width: 4rem;
+    height: 5rem;
+    position:relative;
+    top:45%;
+    left:61%;
+    
+}
+.fa-trash{
+    width: 3rem;
+    height: 3rem;
+    color: blue;
+    position:relative;
+    top:45%;
+    left:45%;
+    
+}
+.addbtn{
+    color: white;
+    border: none;
+    background-color: red;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+
+    position: absolute;
+    top:60%;
+    left:30%;
+}
+#inputtext1{
+    width: 60%;
+    padding: 0.3rem;
+    position: absolute;
+    top:42%;
+    left:18%;
+}
+.poppup1{
+    width: 25%;
+height: 30%;
+color: red;
+background-color: white;
+    border-radius: 1rem;
+    position: absolute;
+    top:35%;
+    left:40%;
+    align-items: center;
+}
+.addbtn1{
+color: white;
+border: none;
+background-color: red;
+border-radius: 1rem;
+padding: 0.5rem;
+margin: 0.5rem;
+position: absolute;
+top:60%;
+left:30%;
+}
+.closebtn1{
+color: white;
+border: none;
+background-color: red;
+border-radius: 1rem;
+padding: 0.5rem;
+margin: 0.5rem;
+position: absolute;
+top:60%;
+left:50%;
+}
+
+.additem1{
+    font-size: 2rem;
+    position: absolute;
+    top:2%;
+    left:25%;
+}
